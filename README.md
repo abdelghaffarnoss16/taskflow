@@ -5,7 +5,7 @@ application built as a foundation for a DevOps and AWS learning project.
 It's intentionally a straightforward monolith — **React → FastAPI →
 PostgreSQL** — with no microservices, message queues, or other
 distributed-systems complexity, so it's easy to containerize, deploy,
-and instrument as you work through DevOps exercises.
+and instrument as you work  DevOps exercises.
 
 ## 1. Overview
 
