@@ -17,7 +17,7 @@ class Settings:
     # --- Database ---
     DATABASE_URL: str = os.getenv(
         "DATABASE_URL",
-        "postgresql://taskflow:taskflow@localhost:5432/taskflow",
+        "postgresql+psycopg://taskflow:taskflow@localhost:5432/taskflow",
     )
 
     # --- Security / JWT ---
